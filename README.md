@@ -6,15 +6,6 @@ Pour utiliser l'API_SNCF il faut une clé qu'on doit demander sur ce site : http
 Ensuite il faut lancer le programme : horaireTrain.py Attention de bien metre votre clé API au début du programme et votre ville de départ et d'arrivé juste après.
 
 Voici le résultat pour Nîmes Montpellier :
-Heure de depart: 16h17
-Heure d'arrive: 16h50
-Durée : 33mn
-Numero de train: 876423
-Type de train: TER
-Direction du train: Perpignan (Perpignan)
-Statut du train: REDUCED_SERVICE
-Nouvelle heure de depart: 16h17
-Retard : 0mn
 
 ************TRAINS*************
 Heure de depart: 17h14
