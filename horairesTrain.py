@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: latin-1 -*-
 
-token_auth = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+token_auth = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+depart ="admin:fr:30189" 
+arrive ="admin:fr:34172"
+nombreTrajet = 4
 baseUrl = 'https://api.sncf.com/v1/coverage/sncf/'
 
 import requests
@@ -38,7 +41,7 @@ def requetGet(command, param):
         print(e)
         return None
         
-param={'from' : 'admin:fr:30189', 'to' : 'admin:fr:34172', 'datetime' : convertir_en_chaine(datetime.now()), 'datetime_represents' : 'departure', 'min_nb_journeys' : 10, 'timeout' : 3} 
+param={'from' : depart, 'to' : arrive, 'datetime' : convertir_en_chaine(datetime.now()), 'datetime_represents' : 'departure', 'min_nb_journeys' : nombreTrajet, 'timeout' : 3} 
 resultats = requetGet('journeys', param)     
 
 result = ''
@@ -105,7 +108,4 @@ for trains in resultats['journeys']:
 result = substr(result,0,-2)
 print("Resultat: " + result)
 
-param2 = {'headsign' : '876554', 'since' : '20200915', 'until' : '20200916', 'timeout' : 3} 
-resultats = requetGet('trips', param2)
-print(resultats)
     
