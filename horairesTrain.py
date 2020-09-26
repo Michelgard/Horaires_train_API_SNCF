@@ -4,7 +4,7 @@
 token_auth = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 depart ="admin:fr:30189" 
 arrive ="admin:fr:34172"
-nombreTrajet = 4
+nombreTrajet = 3
 baseUrl = 'https://api.sncf.com/v1/coverage/sncf/'
 
 import requests
