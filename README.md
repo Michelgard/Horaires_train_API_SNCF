@@ -7,7 +7,7 @@ Ensuite il faut lancer le programme : horaireTrain.py Attention de bien metre vo
 
 Voici le résultat pour Nîmes Montpellier :
 
-************TRAINS*************
+TRAINS
 Heure de depart: 17h14
 Heure d'arrive: 17h41
 Durée : 27mn
@@ -15,7 +15,7 @@ Numero de train: 7875
 Type de train: OUIGO
 Direction du train: Montpellier-Saint-Roch (Montpellier)
 
-************TRAINS*************
+TRAINS
 Heure de depart: 17h43
 Heure d'arrive: 18h17
 Durée : 34mn
@@ -23,7 +23,7 @@ Numero de train: 876562
 Type de train: TER
 Direction du train: Narbonne (Narbonne)
 
-************TRAINS*************
+TRAINS
 Heure de depart: 18h13
 Heure d'arrive: 18h40
 Durée : 27mn
@@ -31,6 +31,6 @@ Numero de train: 6035
 Type de train: TGV INOUI
 Direction du train: Perpignan (Perpignan)
 
-************TRAINS*************
-Resultat: 16h17-0mn, 17h14, 17h43, 18h13
+TRAINS
+Resultat: 17h14, 17h43, 18h13
 
